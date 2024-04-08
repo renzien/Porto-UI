@@ -5,9 +5,9 @@ This is the repository for the new Portfolio Website code. It will be updated re
 
 ## Task Must To-Do
 > Front-End
-- [ ] Making Laravel Project
-- [ ] Install NPM / Extensions Tailwind CSS
-- [ ] Making Structure Folder
+- [x] Making Laravel Project
+- [x] Install NPM / Extensions Tailwind CSS
+- [x] Making Structure Folder
 - [ ] Navbar Website
 - [ ] Content Website
 - [ ] Footer
