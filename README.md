@@ -10,7 +10,10 @@ This is the repository for the new Portfolio Website code. It will be updated re
 - [x] Making Structure Folder
 - [ ] Navbar Website
 - [ ] Content Website
-- [ ] Footer
+  - [ ] Hero Section
+  - [ ] About Section
+  - [ ] Portofolio Section
+- [ ] Footer Section
 - [ ] Dashboard Admin (inc. Login, etc.)
 
 > Back-End
