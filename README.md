@@ -8,7 +8,7 @@ This is the repository for the new Portfolio Website code. It will be updated re
 - [x] Making Laravel Project
 - [x] Install NPM / Extensions Tailwind CSS
 - [x] Making Structure Folder
-- [ ] Navbar Website
+- [x] Navbar Website
 - [ ] Content Website
   - [ ] Hero Section
   - [ ] About Section
