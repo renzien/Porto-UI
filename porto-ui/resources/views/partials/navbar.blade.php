@@ -1,34 +1,21 @@
-<nav class="bg-white fixed w-full z-20 top-0 start-0 font-quicksand">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-blue-400">ALIF RIZKI</span>
+<nav class="w-full h-32 flex items-center justify-between font-quicksand">
+    <div class="pl-14">
+        <a href="#" class="flex items-center">
+            <span class="text-3xl font-bold text-blue-400">RENZIEN</span>
         </a>
-        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button"
-                class="text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
-                started</button>
+    </div>
+    <div class="relative flex w-1/3 items-center justify-center bg-slate-300 rounded-full">
+        <div class="flex py-1">
+            {{-- Highlights Rounded for Hover --}}
+            <div class="absolute top-1.5 left-2 w-1/6 h-4/6 bg-blue-400 rounded-2xl">
+                <a href="#" class="px-7 py-5 text-center text-lg font-medium text-white">All</a>
+            </div>
+            <a href="#" class="px-7 text-lg font-medium text-white">About</a>
+            <a href="#" class="px-6 text-lg font-medium text-white">Projects</a>
+            <a href="#" class="px-6 text-lg font-medium text-white">Media</a>
         </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-            <ul
-                class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
-                <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-blue-400 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                        aria-current="page">Home</a>
-                </li>
-                <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-blue-600 md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                </li>
-                <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-blue-600 md:dark:hover:bg-transparent dark:border-gray-700">Portofolio</a>
-                </li>
-                <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-blue-400 dark:hover:bg-gray-700 dark:hover:text-blue-600 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                </li>
-            </ul>
-        </div>
+    </div>
+    <div class="text-lg font-medium bg-blue-400 rounded-2xl mr-14">
+        <a href="#" class="px-5 py-2 text-white">Contact</a>
     </div>
 </nav>
